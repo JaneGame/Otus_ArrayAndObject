@@ -7,6 +7,11 @@ const scores = {
     let summ = 0
 
 
+    /** Метод считает сумму всех баллов
+    * @param {Array} scores
+    * @return {Number|SyntaxError} Сумма всех значений или ошибка
+    */
+
 // eslint-disable-next-line no-unreachable-loop
 function getScore(scores){for ( const name in scores){ 
     if (Number.isInteger(scores[name])) {
